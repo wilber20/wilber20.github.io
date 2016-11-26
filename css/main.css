@@ -4,6 +4,7 @@ body {
   padding-top: 0;
   font-family: 'Ubuntu', sans-serif !important; }
 
+/*---- NAVBAR ---*/
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -30,7 +31,6 @@ body {
     width: 100%;
   }
 }
-
 
 .navbar-default {
   background-color: rgba(178,196,203, 0.8);
@@ -66,60 +66,11 @@ a {
   font-size: 16px; }
 
 
-#about-me {
-  background: url("../img/tile1.png"); }
-
 .pd-5 {
   padding: 5% 5%; }
 
-/*# sourceMappingURL=main.css.map */
+/*----- SECCION INFO -----*/
 
-
-.list-contact {
-  margin-top: 25px;
-  margin-bottom: 0; }
-
-.list-contact li {
-
-  list-style: none;
-  padding: 0 20px 20px;
-   }
-
-.list-contact i, .e-mail i {
-  font-size: 30px;
-  height: 60px;
-  width: 60px;
-  line-height: 40px;
-  color: #fff;
-  text-align: center;
-  border: 1px solid #e6dede;
-  border-radius: 100%;
-  padding: 10px;
-  vertical-align: middle;
-  transition: all 1s; }
-
-.list-contact i:hover {
-  border-radius: 10px;
-  background: #ccc;
-  color: #272424; }
-
-  .form{
-    font-family: 'Josefin Sans', sans-serif!important;
-    margin: 7px 0;
-    font-size: 16px;
-    width: 75%;
-    text-align: left;
-    padding: 7px 10px;
-    background: rgba(255,255,255,0.5);
-    border: 0;
-    color: black!important;                                                       
-}
-.send{
-    background: rgba(0,0,0,0);
-    border: 1px solid white;
-    color:#FFF;
-    padding:10px 20px;
-    }
 
 .full{
     position: relative;
@@ -152,7 +103,6 @@ a {
   padding-left: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); }
   opacity:0.5  ;
-
 
   .text{
 
@@ -201,6 +151,8 @@ a {
     padding: 20px;
   margin: 10px 10px;
 }
+
+/*------------- SECCION CONTRIBUCIONES ------*/
 .itemi {
   position: relative;
 
@@ -209,7 +161,7 @@ a {
   width: 100%;
   margin-bottom:  20px;
 }
-.item img {
+.itemi img {
   max-width: 100%;
   
   -moz-transition: all 0.3s;
@@ -223,6 +175,10 @@ a {
   transform: scale(1.5);
 }
 
+#cont {
+  background: url("../img/tile1.png"); }
+  
+/*--------------------------SECCION EXPERIENCIA----------------*/
 .imggr {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(0.9); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -237,6 +193,8 @@ a {
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
  
 }
+
+/*-----------------SECCION MIS ALUMNOS -----------------*/
 
 .hide-bullets {
     list-style:none;
@@ -268,7 +226,54 @@ a {
 
 }
 
-#cont {
-  background: url("../img/tile1.png"); }
 #alum {
   background: url("../img/tile2.png"); }
+
+/* ----- SECCION CONTACTAME ------- */
+.list-contact {
+  margin-top: 25px;
+  margin-bottom: 0; }
+
+.list-contact li {
+
+  list-style: none;
+  padding: 0 20px 20px;
+   }
+
+.list-contact i, .e-mail i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #e6dede;
+  border-radius: 100%;
+  padding: 10px;
+  vertical-align: middle;
+  transition: all 1s; }
+
+.list-contact i:hover {
+  border-radius: 10px;
+  background: #ccc;
+  color: #272424; }
+
+  .form{
+    font-family: 'Josefin Sans', sans-serif!important;
+    margin: 7px 0;
+    font-size: 16px;
+    width: 75%;
+    text-align: left;
+    padding: 7px 10px;
+    background: rgba(255,255,255,0.5);
+    border: 0;
+    color: black!important;                                                       
+}
+.send{
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    color:#FFF;
+    padding:10px 20px;
+    }
+
+
